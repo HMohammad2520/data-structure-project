@@ -16,7 +16,7 @@
 
 | lesson                | Chapter Readme                                         | C++ File                                              |
 | --------------------- | ------------------------------------------------------ | ----------------------------------------------------- |
-|                       | **— [Chapter](source/chapter_1/) 1 —**                 |                                                       |
+|                       | **— [Chapter 1](source/chapter_1/) —**                 |                                                       |
 | Factorial             | [Readme](source/chapter_1/01_factorial.md)             | [Code](source/chapter_1/01_factorial.cpp)             |
 | Matrix Addition       | [Readme](source/chapter_1/02_matrix_add.md)            | [Code](source/chapter_1/02_matrix_add.cpp)            |
 | Bubble Sort           | [Readme](source/chapter_1/03_bubble_sort.md)           | [Code](source/chapter_1/03_bubble_sort.cpp)           |

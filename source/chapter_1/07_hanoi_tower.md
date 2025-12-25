@@ -63,3 +63,5 @@ Move disk 1 from A to B
 Move disk 2 from A to C
 Move disk 1 from B to C
 ```
+
+### [Back](/readme.md)
