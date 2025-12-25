@@ -14,7 +14,7 @@
 
 ## فهرست دروس
 
-| lesson                | Chapter Readme                                         | C++ File                                              |
+| Lesson                | Chapter Readme                                         | C++ File                                              |
 | --------------------- | ------------------------------------------------------ | ----------------------------------------------------- |
 |                       | **— [Chapter 1](source/chapter_1/) —**                 |                                                       |
 | Factorial             | [Readme](source/chapter_1/01_factorial.md)             | [Code](source/chapter_1/01_factorial.cpp)             |
