@@ -1,5 +1,7 @@
 # (Data Structures with C++)
-## پروژه ساختمان داده‌ها 
+
+## پروژه ساختمان داده‌ها
+
 ---
 
 ## مقدمه
@@ -12,9 +14,13 @@
 
 ## فهرست دروس
 
-| Chapter | lesson      | Chapter Readme                               | C++ File                                    |
-| ------- | ----------- | -------------------------------------------- | ------------------------------------------- |
-| 3       | Stack Array | [Readme](source/chapter_3/01_stack_array.md) | [Code](source/chapter_3/01_stack_array.cpp) |
+| Chapter | lesson                | Chapter Readme                                         | C++ File                                              |
+| ------- | --------------------- | ------------------------------------------------------ | ----------------------------------------------------- |
+| 3       | Stack Array           | [Readme](source/chapter_3/01_stack_array.md)           | [Code](source/chapter_3/01_stack_array.cpp)           |
+| 3       | Stack Under Flow      | [Readme](source/chapter_3/02_stack_under_flow.md)      | [Code](source/chapter_3/02_stack_under_flow.cpp)      |
+| 3       | Postfix Expression    | [Readme](source/chapter_3/03_postfix_expression.md)    | [Code](source/chapter_3/03_postfix_expression.cpp)    |
+| 3       | Infix to Postfix      | [Readme](source/chapter_3/04_infix_to_postfix.md)      | [Code](source/chapter_3/04_infix_to_postfix.cpp)      |
+| 3       | Recursive Subroutines | [Readme](source/chapter_3/05_recursive_subroutines.md) | [Code](source/chapter_3/05_recursive_subroutines.cpp) |
 
 ---
 
@@ -23,46 +29,51 @@
 > مراحل 3 به بعد برای تست اختیاری میباشد.
 
 1. ابتدا کمپایلر مربوط به سیستم عامل خود را نصب کنید:
-    [Download](https://jmeubank.github.io/tdm-gcc/download/)
+   [Download](https://jmeubank.github.io/tdm-gcc/download/)
 
 2. داخل CMD از نصب آن اطمینان حاصل کنید
 
-    دستور:
-    ```bash
-    g++ --version
-    ```
-    نتیجه:
-    ```output
-    g++.exe (tdm64-1) 10.3.0
-    ```
+   دستور:
+
+   ```bash
+   g++ --version
+   ```
+
+   نتیجه:
+
+   ```output
+   g++.exe (tdm64-1) 10.3.0
+   ```
 
 3. افزونه C++ را در vsCode نصب میکنیم.
-    - در این مرحله میتوانیم کد هارا از مسیر source کامپایل و اجرا کنیم
+
+   - در این مرحله میتوانیم کد هارا از مسیر source کامپایل و اجرا کنیم
 
 4. برای کامپایل کردن و تست دست جمعی python را نصب میکنیم.
 
 5. با استفاده از pip کتابخانه های مورد نیاز را نصب کنید:
 
-    دستور:
-    ```bash
-    pip install -r requirements.txt
-    ```
+   دستور:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 6. با اجرا کردن فایل `compile.py` تمامی فایل ها کمپایل شده و در پوشه `build` قرار میگیرند.
 
 7. حال با استفاده از دستور pytest میتوانید هر فصل را تست کنید:
-    ```bash
-    python -m pytesy -v
-    ```
-    نتیجه:
-    ```text
-    test/test_chapter_3.py::test_stack_array PASSED
-    test/test_chapter_3.py::test_stack_under_flow PASSED
-    test/test_chapter_3.py::test_postfix_expression PASSED
-    test/test_chapter_3.py::test_infix_to_postfix PASSED
-    test/test_chapter_3.py::test_recursive_subroutines PASSED
-    test/test_chapter_4.py::test_queue_fifo_lifo PASSED
-    ```
+   ```bash
+   python -m pytesy -v
+   ```
+   نتیجه:
+   ```text
+   test/test_chapter_3.py::test_stack_array PASSED
+   test/test_chapter_3.py::test_stack_under_flow PASSED
+   test/test_chapter_3.py::test_postfix_expression PASSED
+   test/test_chapter_3.py::test_infix_to_postfix PASSED
+   test/test_chapter_3.py::test_recursive_subroutines PASSED
+   test/test_chapter_4.py::test_queue_fifo_lifo PASSED
+   ```
 
 ---
 
@@ -86,6 +97,7 @@
 - در صورت موفقیت تست، پیام `PASSED` و در غیر این صورت پیام خطا نمایش داده می‌شود.
 
 نمونه یکی از تست ها:
+
 ```python
 def test_postfix_expression():
     assert ch_3_postfix_expression.run('1', '1', '+') == '2'
