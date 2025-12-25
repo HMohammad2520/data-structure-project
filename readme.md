@@ -14,13 +14,22 @@
 
 ## فهرست دروس
 
-| Chapter | lesson                | Chapter Readme                                         | C++ File                                              |
-| ------- | --------------------- | ------------------------------------------------------ | ----------------------------------------------------- |
-| 3       | Stack Array           | [Readme](source/chapter_3/01_stack_array.md)           | [Code](source/chapter_3/01_stack_array.cpp)           |
-| 3       | Stack Under Flow      | [Readme](source/chapter_3/02_stack_under_flow.md)      | [Code](source/chapter_3/02_stack_under_flow.cpp)      |
-| 3       | Postfix Expression    | [Readme](source/chapter_3/03_postfix_expression.md)    | [Code](source/chapter_3/03_postfix_expression.cpp)    |
-| 3       | Infix to Postfix      | [Readme](source/chapter_3/04_infix_to_postfix.md)      | [Code](source/chapter_3/04_infix_to_postfix.cpp)      |
-| 3       | Recursive Subroutines | [Readme](source/chapter_3/05_recursive_subroutines.md) | [Code](source/chapter_3/05_recursive_subroutines.cpp) |
+| lesson                | Chapter Readme                                         | C++ File                                              |
+| --------------------- | ------------------------------------------------------ | ----------------------------------------------------- |
+|                       | **— [Chapter](source/chapter_1/) 1 —**                 |                                                       |
+| Factorial             | [Readme](source/chapter_1/01_factorial.md)             | [Code](source/chapter_1/01_factorial.cpp)             |
+| Matrix Addition       | [Readme](source/chapter_1/02_matrix_add.md)            | [Code](source/chapter_1/02_matrix_add.cpp)            |
+| Bubble Sort           | [Readme](source/chapter_1/03_bubble_sort.md)           | [Code](source/chapter_1/03_bubble_sort.cpp)           |
+| Linear Search         | [Readme](source/chapter_1/04_linear_search.md)         | [Code](source/chapter_1/04_linear_search.cpp)         |
+| Max Element           | [Readme](source/chapter_1/05_max_element.md)           | [Code](source/chapter_1/05_max_element.cpp)           |
+| Fibonacci Sequence    | [Readme](source/chapter_1/06_fibonacci.md)             | [Code](source/chapter_1/06_fibonacci.cpp)             |
+| Tower of Hanoi        | [Readme](source/chapter_1/07_hanoi_tower.md)           | [Code](source/chapter_1/07_hanoi_tower.cpp)           |
+|                       | **— [Chapter 3](source/chapter_3/) —**                 |                                                       |
+| Stack Array           | [Readme](source/chapter_3/01_stack_array.md)           | [Code](source/chapter_3/01_stack_array.cpp)           |
+| Stack Under Flow      | [Readme](source/chapter_3/02_stack_under_flow.md)      | [Code](source/chapter_3/02_stack_under_flow.cpp)      |
+| Postfix Expression    | [Readme](source/chapter_3/03_postfix_expression.md)    | [Code](source/chapter_3/03_postfix_expression.cpp)    |
+| Infix to Postfix      | [Readme](source/chapter_3/04_infix_to_postfix.md)      | [Code](source/chapter_3/04_infix_to_postfix.cpp)      |
+| Recursive Subroutines | [Readme](source/chapter_3/05_recursive_subroutines.md) | [Code](source/chapter_3/05_recursive_subroutines.cpp) |
 
 ---
 
@@ -61,11 +70,11 @@
 
 6. با اجرا کردن فایل `compile.py` تمامی فایل ها کمپایل شده و در پوشه `build` قرار میگیرند.
 
-    دستور:
+   دستور:
 
-    ```bash
-    python ./compile.py
-    ```
+   ```bash
+   python ./compile.py
+   ```
 
 7. حال با استفاده از دستور pytest میتوانید هر فصل را تست کنید:
    ```bash
