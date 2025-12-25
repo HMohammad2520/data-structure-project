@@ -69,7 +69,7 @@
 
 7. حال با استفاده از دستور pytest میتوانید هر فصل را تست کنید:
    ```bash
-   python -m pytesy -v
+   python -m pytest -v
    ```
    نتیجه:
    ```text
