@@ -196,8 +196,9 @@ def test_postfix_expression():
 
 ## تصویر تست های انجام شده از تمامی دروس
 
-![tested](screenshots/tested.gif)
-
+<div style="text-align: center;">
+    <img src="screenshots/tested.gif" width="400">
+</div>
 ---
 
 ### ✅ نکات مهم
