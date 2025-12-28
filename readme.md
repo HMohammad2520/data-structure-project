@@ -24,6 +24,14 @@
 | Max Element           | [Readme](source/chapter_1/05_max_element.md)           | [Code](source/chapter_1/05_max_element.cpp)           |
 | Fibonacci Sequence    | [Readme](source/chapter_1/06_fibonacci.md)             | [Code](source/chapter_1/06_fibonacci.cpp)             |
 | Tower of Hanoi        | [Readme](source/chapter_1/07_hanoi_tower.md)           | [Code](source/chapter_1/07_hanoi_tower.cpp)           |
+|                       | **— [Chapter 2](source/chapter_2/) —**                 |                                                       |
+| Array Simple          | [Readme](source/chapter_2/01_array_simple.md)          | [Code](source/chapter_2/01_array_simple.cpp)          |
+| Array Addresses       | [Readme](source/chapter_2/02_array_addresses.md)       | [Code](source/chapter_2/02_array_addresses.cpp)       |
+| Address Formula       | [Readme](source/chapter_2/03_address_formula.md)       | [Code](source/chapter_2/03_address_formula.cpp)       |
+| Linear Search         | [Readme](source/chapter_2/04_linear_search.md)         | [Code](source/chapter_2/04_linear_search.cpp)         |
+| Binary Search         | [Readme](source/chapter_2/05_binary_search.md)         | [Code](source/chapter_2/05_binary_search.cpp)         |
+| Matrix Addresses      | [Readme](source/chapter_2/06_matrix_addresses.md)      | [Code](source/chapter_2/06_matrix_addresses.cpp)      |
+| Sparse Matrix         | [Readme](source/chapter_2/07_sparse_matrix.md)         | [Code](source/chapter_2/07_sparse_matrix.cpp)         |
 |                       | **— [Chapter 3](source/chapter_3/) —**                 |                                                       |
 | Stack Array           | [Readme](source/chapter_3/01_stack_array.md)           | [Code](source/chapter_3/01_stack_array.cpp)           |
 | Stack Under Flow      | [Readme](source/chapter_3/02_stack_under_flow.md)      | [Code](source/chapter_3/02_stack_under_flow.cpp)      |
@@ -188,7 +196,7 @@ def test_postfix_expression():
 
 ## تصویر تست های انجام شده از تمامی دروس
 
-![stack_test](screenshots/stack_test.png)
+![tested](screenshots/tested.gif)
 
 ---
 
