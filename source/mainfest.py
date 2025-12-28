@@ -25,8 +25,14 @@ ch_3_infix_to_postfix      = LessonScript(4, 'Infix To Postfix',      'source/ch
 ch_3_recursive_subroutines = LessonScript(5, 'Recursive subroutines', 'source/chapter_3/05_recursive_subroutines.cpp', compile_dir_3)
 
 
-# Chapter 3
-ch_4_queue_fifo_lifo = LessonScript(1, 'Queue', 'source/chapter_4/01_queue_fifo_lifo.cpp', compile_dir_4)
+# Chapter 4
+ch_4_queue_fifo_lifo   = LessonScript(1, 'Queue FIFO / LIFO',     'source/chapter_4/01_queue_fifo_lifo.cpp', compile_dir_4)
+ch_4_queue_ops         = LessonScript(2, 'Queue Operations',      'source/chapter_4/02_queue_ops.cpp',       compile_dir_4)
+ch_4_queue_display     = LessonScript(3, 'Queue Display',         'source/chapter_4/03_queue_display.cpp',   compile_dir_4)
+ch_4_linked_list       = LessonScript(4, 'Linked List',           'source/chapter_4/04_linked_list.cpp',     compile_dir_4)
+ch_4_loops             = LessonScript(5, 'Loops',                 'source/chapter_4/05_loops.cpp',           compile_dir_4)
+ch_4_list_traversal    = LessonScript(6, 'Linked List Traversal', 'source/chapter_4/06_list_traversal.cpp',  compile_dir_4)
+
 
 lessons = [
     # Chapter 1
@@ -47,4 +53,9 @@ lessons = [
 
     # Chapter 4
     ch_4_queue_fifo_lifo,
+    ch_4_queue_ops,
+    ch_4_queue_display,
+    ch_4_linked_list,
+    ch_4_loops,
+    ch_4_list_traversal,
 ]

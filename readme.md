@@ -30,6 +30,70 @@
 | Postfix Expression    | [Readme](source/chapter_3/03_postfix_expression.md)    | [Code](source/chapter_3/03_postfix_expression.cpp)    |
 | Infix to Postfix      | [Readme](source/chapter_3/04_infix_to_postfix.md)      | [Code](source/chapter_3/04_infix_to_postfix.cpp)      |
 | Recursive Subroutines | [Readme](source/chapter_3/05_recursive_subroutines.md) | [Code](source/chapter_3/05_recursive_subroutines.cpp) |
+|                       | **— [Chapter 4](source/chapter_4/) —**                 |                                                       |
+| Queue (FIFO / LIFO)   | [Readme](source/chapter_4/01_queue_fifo_lifo.md)       | [Code](source/chapter_4/01_queue_fifo_lifo.cpp)       |
+| Queue Operations      | [Readme](source/chapter_4/02_queue_ops.md)             | [Code](source/chapter_4/02_queue_ops.cpp)             |
+| Queue Display         | [Readme](source/chapter_4/03_queue_display.md)         | [Code](source/chapter_4/03_queue_display.cpp)         |
+| Linked List           | [Readme](source/chapter_4/04_linked_list.md)           | [Code](source/chapter_4/04_linked_list.cpp)           |
+| Loops                 | [Readme](source/chapter_4/05_loops.md)                 | [Code](source/chapter_4/05_loops.cpp)                 |
+| List Traversal        | [Readme](source/chapter_4/06_list_traversal.md)        | [Code](source/chapter_4/06_list_traversal.cpp)        |
+
+---
+
+### ساختار کلی هر درس
+
+هر درس در پروژه با **یک فایل C++ مستقل** نوشته شده و به جای گرفتن ورودی تعاملی (`cin`)، **ورودی‌ها از آرگیومنت‌های خط فرمان** (`argv`) دریافت می‌شوند.
+
+برای مثال:
+
+```bash
+./01_factorial 5
+```
+
+در این حالت:
+
+* `argv[0]` = مسیر برنامه (`./01_factorial`)
+* `argv[1]` = `5` (عدد مورد نظر برای محاسبه فاکتوریل)
+
+---
+
+### آرگیومنت‌ها در برنامه‌ها
+
+* **اعداد ساده**: مثل فاکتوریل یا فیبوناچی، تنها یک مقدار نیاز دارند.
+
+* **آرایه‌ها و لیست‌ها**: عناصر آرایه یا لیست پیوندی به صورت **دنباله‌ای از آرگیومنت‌ها** پاس می‌شوند.
+
+    * `argv[1]` = طول آرایه (`5`)
+    * `argv[2..6]` = عناصر آرایه (`10, 20, 15, 30, 25`)
+
+* **صف و عملیات‌ها**: در مثال Queue، ممکن است یک سری دستورات مثل `dequeue` و `pop` به عنوان آرگیومنت پاس شوند:
+
+  * مثال: `01_queue_fifo_lifo 10 20 30 dequeue 40`
+
+---
+
+### هندل کردن آرایه‌ها و لیست‌ها
+
+* در برنامه C++، معمولاً مراحل زیر انجام می‌شود:
+
+1. **خواندن طول لیست/آرایه** از `argv[1]`
+2. **ایجاد آرایه/لیست** با طول مشخص
+3. **پر کردن عناصر** از باقی آرگیومنت‌ها (`argv[2..n]`)
+
+   ```cpp
+   for (int i = 0; i < n; i++)
+       arr[i] = std::atoi(argv[2 + i]);
+   ```
+4. عملیات موردنظر (مرتب‌سازی، پیمایش، نمایش، …)
+5. چاپ خروجی نهایی روی `stdout` (یک خط یا چند خط بسته به درس)
+
+---
+
+### مزیت این روش
+
+* **بدون نیاز به ورودی تعاملی** → مناسب تست خودکار با Python
+* هر خروجی **قابل assert مستقیم** است
+* مدیریت آرایه‌ها و لیست‌ها کاملاً **سلسله‌مراتبی و ساده** است: طول + عناصر
 
 ---
 
@@ -82,12 +146,12 @@
    ```
    نتیجه:
    ```text
-   test/test_chapter_3.py::test_stack_array PASSED
-   test/test_chapter_3.py::test_stack_under_flow PASSED
-   test/test_chapter_3.py::test_postfix_expression PASSED
-   test/test_chapter_3.py::test_infix_to_postfix PASSED
-   test/test_chapter_3.py::test_recursive_subroutines PASSED
-   test/test_chapter_4.py::test_queue_fifo_lifo PASSED
+   test/test_chapter_1.py::test_factorial PASSED
+   test/test_chapter_1.py::test_matrix_add PASSED
+   test/test_chapter_1.py::test_bubble_sort PASSED
+   test/test_chapter_1.py::test_linear_search PASSED
+   test/test_chapter_1.py::test_max_element PASSED
+   ...
    ```
 
 ---
@@ -122,7 +186,7 @@ def test_postfix_expression():
 
 ---
 
-##
+## تصویر تست های انجام شده از تمامی دروس
 
 ![stack_test](screenshots/stack_test.png)
 
