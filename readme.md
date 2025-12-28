@@ -1,6 +1,4 @@
-<div align="right" dir="rtl">
-
-# (Data Structures with C++)
+# Data Structures with C++
 
 ## پروژه ساختمان داده‌ها
 
@@ -221,5 +219,3 @@ def test_postfix_expression():
 - قبل از اجرای هر درس، مطمئن شوید که مسیر **build/** وجود دارد.
 - از Python 3 برای اجرای `LessonScript` استفاده کنید.
 - در Windows، هنگام استفاده از `*` در Postfix، یا آن را **quoted** وارد کنید یا از جایگزین مثل `'x'` استفاده کنید.
-
-</div>
