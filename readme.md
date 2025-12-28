@@ -208,9 +208,9 @@ def test_postfix_expression():
 
 ## تصویر تست های انجام شده از تمامی دروس
 
-<div style="text-align: center;">
+<p align="center">
     <img src="screenshots/tested.gif" width="400">
-</div>
+</p>
 
 ---
 
