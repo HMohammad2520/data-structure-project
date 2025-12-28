@@ -197,6 +197,17 @@ def test_postfix_expression():
 
 ---
 
+## جدول فایل های تست
+
+| Chapter   | Test Files                          |
+| --------- | ----------------------------------- |
+| Chapter 1 | [Test File](test/test_chapter_1.py) |
+| Chapter 2 | [Test File](test/test_chapter_2.py) |
+| Chapter 3 | [Test File](test/test_chapter_3.py) |
+| Chapter 4 | [Test File](test/test_chapter_4.py) |
+
+---
+
 ## تصویر تست های انجام شده از تمامی دروس
 
 <div style="text-align: center;">
