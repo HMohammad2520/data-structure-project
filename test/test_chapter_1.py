@@ -10,11 +10,11 @@ from source.mainfest import (
 
 
 def test_factorial():
-    assert ch_1_factorial.run('1') == '120'
-    assert ch_1_factorial.run('2') == '120'
+    assert ch_1_factorial.run('1') == '1'
+    assert ch_1_factorial.run('2') == '2'
     assert ch_1_factorial.run('5') == '120'
-    assert ch_1_factorial.run('10') == '120'
-    
+    assert ch_1_factorial.run('10') == '3628800'
+
 
 def test_matrix_add():
     assert ch_1_matrix_add.run(
