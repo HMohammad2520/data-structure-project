@@ -1,4 +1,4 @@
-<div dir="rtl">
+<div align="right" dir="rtl">
 
 # (Data Structures with C++)
 
